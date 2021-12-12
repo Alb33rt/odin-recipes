@@ -5,6 +5,30 @@
     font-weight: 400;
 }
 
-.title {
+.title h1 {
     font-weight: 700;
+    text-align: center;
+}
+
+.title > img {
+    width: 1000px;
+    height: auto;
+    margin-right: auto;
+}
+
+.block {
+    font-weight: 400;
+}
+
+.block h3 {
+    text-decoration: underline;
+}
+
+.block :hover {
+    background-color: #e0e0e0;
+}
+
+#menu > li {
+    list-style-type: none;
+    text-align: center;
 }
